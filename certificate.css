@@ -1,0 +1,60 @@
+.certificates-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.certificate {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.certificate h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.certificate a {
+  color: #00f;
+  text-decoration: underline;
+}
+
+.certificate img {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    font-weight: 500; /* (Note: font-weight is for text, not images) */
+}
+
+
+.certificateee{
+    align-items: center;
+}
+
+
+
+
+.glass-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.4); /* Solid black with slight transparency */
+    border-radius: 10px;
+    text-decoration: none;
+
+    /* Added for zoom transition */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+}
+
+/* Hover effect */
+.glass-container h2:hover {
+    transform: scale(1.05); /* Slight zoom in */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Optional: Adds a glow effect */
+}

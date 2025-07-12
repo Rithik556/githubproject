@@ -1,0 +1,21 @@
+.section-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.4); /* Solid black with slight transparency */
+    border-radius: 10px;
+    text-decoration: none;
+
+    /* Added for zoom transition */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+}
+
+/* Hover effect */
+.section-heading:hover {
+    transform: scale(1.05); /* Slight zoom in */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Optional: Adds a glow effect */
+}
